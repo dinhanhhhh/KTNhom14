@@ -536,7 +536,7 @@ class HOTEL_MANGMENT_checkin:
         self.Checkbutton1.configure(highlightbackground="#ffffff")
         self.Checkbutton1.configure(highlightcolor="black")
         self.Checkbutton1.configure(justify=LEFT)
-        self.Checkbutton1.configure(text='''DELUXE''')
+        self.Checkbutton1.configure(text='''STANDARD''')
         self.Checkbutton1.configure(variable=self.var1)
 
 
@@ -556,7 +556,7 @@ class HOTEL_MANGMENT_checkin:
         self.Checkbutton2.configure(highlightbackground="#ffffff")
         self.Checkbutton2.configure(highlightcolor="black")
         self.Checkbutton2.configure(justify=LEFT)
-        self.Checkbutton2.configure(text='''FULL DELUXE''')
+        self.Checkbutton2.configure(text='''SUPERIOR''')
         self.Checkbutton2.configure(variable=self.var2)
 
         self.Checkbutton3 = Checkbutton(self.Frame2)
@@ -572,7 +572,7 @@ class HOTEL_MANGMENT_checkin:
         self.Checkbutton3.configure(highlightbackground="#ffffff")
         self.Checkbutton3.configure(highlightcolor="black")
         self.Checkbutton3.configure(justify=LEFT)
-        self.Checkbutton3.configure(text='''GENERAL''')
+        self.Checkbutton3.configure(text='''DELUXE''')
         self.Checkbutton3.configure(variable=self.var3)
 
         self.Checkbutton4 = Checkbutton(self.Frame2)
@@ -588,7 +588,7 @@ class HOTEL_MANGMENT_checkin:
         self.Checkbutton4.configure(highlightbackground="#ffffff")
         self.Checkbutton4.configure(highlightcolor="black")
         self.Checkbutton4.configure(justify=LEFT)
-        self.Checkbutton4.configure(text='''JOINT''')
+        self.Checkbutton4.configure(text='''SUITE''')
         self.Checkbutton4.configure(variable=self.var4)
 
         self.Checkbutton5 = Checkbutton(self.Frame2)
@@ -630,7 +630,7 @@ class HOTEL_MANGMENT_checkin:
         self.Message7.configure(foreground="#000000")
         self.Message7.configure(highlightbackground="#ffffff")
         self.Message7.configure(highlightcolor="black")
-        self.Message7.configure(text='''-''')
+        self.Message7.configure(text='''''')
         self.Message7.configure(width=41)
 
         self.Button1 = Button(self.Frame2)
