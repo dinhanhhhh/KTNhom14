@@ -77,7 +77,7 @@ class HOTEL_MANGMENT_checkin:
            top is the toplevel containing window.'''
         _bgcolor = '#d9d9d9'  # X11 color: 'gray85'
         _fgcolor = '#000000'  # X11 color: 'black'
-        _compcolor = '#ffffff' # X11 color: 'white'
+        _compcolor = '#ffffff' # X11 color: 'green'
         _ana1color = '#ffffff' # X11 color: 'white'
         _ana2color = '#ffffff' # X11 color: 'white'
         font11 = "-family {Segoe UI} -size 17 -weight bold -slant "  \
