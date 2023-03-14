@@ -546,7 +546,7 @@ class HOTEL_MANGMENT_checkin:
         self.Checkbutton2 = Checkbutton(self.Frame2)
         self.var2 = IntVar()
         self.Checkbutton2.place(relx=0.15, rely=0.72, relheight=0.11
-                , relwidth=0.21)
+                , relwidth=0.14)
         self.Checkbutton2.configure(activebackground="#ffffff")
         self.Checkbutton2.configure(activeforeground="#000000")
         self.Checkbutton2.configure(background="#ffffff")
@@ -578,7 +578,7 @@ class HOTEL_MANGMENT_checkin:
         self.Checkbutton4 = Checkbutton(self.Frame2)
         self.var4 = IntVar()
         self.Checkbutton4.place(relx=0.5, rely=0.71, relheight=0.11
-                , relwidth=0.12)
+                , relwidth=0.14)
         self.Checkbutton4.configure(activebackground="#ffffff")
         self.Checkbutton4.configure(activeforeground="#000000")
         self.Checkbutton4.configure(background="#ffffff")
@@ -610,7 +610,7 @@ class HOTEL_MANGMENT_checkin:
         self.Checkbutton6 = Checkbutton(self.Frame2)
         self.var6 = IntVar()
         self.Checkbutton6.place(relx=0.153, rely=0.89, relheight=0.1
-                                , relwidth=0.15)
+                                , relwidth=0.10)
         self.Checkbutton6.configure(activebackground="#ffffff")
         self.Checkbutton6.configure(activeforeground="#000000")
         self.Checkbutton6.configure(background="#ffffff")
